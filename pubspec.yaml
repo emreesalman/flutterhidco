@@ -53,9 +53,43 @@ flutter:
     - assets/images/sosyalmedya.png
     - assets/images/urunler.png
     - assets/images/logo.png
-    - assets/icons/blog_icon.png
     - assets/images/h2_sol.png
     - assets/images/h2.jpg
+    - assets/images/izmirsalter.png
+    - assets/icons/blog_icon.png
+    - assets/icons/banka_icon.png
+    - assets/icons/bayiler_icon.png
+    - assets/icons/hakkimizda_icon.png
+    - assets/icons/iletisim_icon.png
+    - assets/icons/insankaynaklari_icon.png
+    - assets/icons/shop_icon.png
+    - assets/icons/sosyalmedya_icon.png
+    - assets/icons/urunler_icon.png
+    - assets/icons/drawler_icon.png
+    - assets/images/izmirAta.png
+    - assets/images/izmirMera.png
+    - assets/images/izmirMotorcular.png
+    - assets/images/izmirRultek.png
+    - assets/images/izmirSalt.jpg
+    - assets/images/ankaraRedmak.jpg
+    - assets/images/ankaraSayic.png
+    - assets/images/antepCayisagasi.jpg
+    - assets/images/istanbulBogazici.png
+    - assets/images/Ankara.jpg
+    - assets/images/istanbul.jpg
+    - assets/images/denizli.jpg
+    - assets/images/antep.jpg
+    - assets/images/izmir.jpg
+    - assets/images/kosgeb.png
+    - assets/icons/instagram.jpg
+    - assets/icons/facebook.jpg
+    - assets/icons/linkedin.png
+    - assets/icons/pinterest.png
+    - assets/icons/twitter.png
+    - assets/images/backgroundtemplete.png
+
+
+
 
 
 
