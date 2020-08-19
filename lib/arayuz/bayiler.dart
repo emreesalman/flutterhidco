@@ -4,7 +4,7 @@ class BayilerView extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Bayiler Sayfasi"),
+        title: Text("Bayiler"),
       ),
       body:SingleChildScrollView(
         child: SafeArea(

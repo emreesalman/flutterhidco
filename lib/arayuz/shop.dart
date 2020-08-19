@@ -7,7 +7,7 @@ class ShopView extends StatelessWidget{
         title: Text("Shop Sayfasi"),
       ),
       body: Center(
-        child: Text("Hosgeldiniz"),
+        child: Text("Yakında Sizlerle..",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
       ),
     );
   }

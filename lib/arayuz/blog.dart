@@ -7,7 +7,7 @@ class BlogView extends StatelessWidget{
         title: Text("Blog Sayfasi"),
       ),
       body: Center(
-        child: Text("Hosgeldiniz"),
+        child: Text("Yakında Sizlerle..",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
       ),
     );
   }

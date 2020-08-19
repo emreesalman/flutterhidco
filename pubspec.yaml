@@ -23,9 +23,12 @@ environment:
 dependencies:
   carousel_pro: ^1.0.0
   carousel_slider: ^2.2.1
+  webview_flutter: 0.3.22+1
+  photo_view: 0.10.0
+  url_launcher: ^4.1.0
+
   flutter:
     sdk: flutter
-
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -87,6 +90,48 @@ flutter:
     - assets/icons/pinterest.png
     - assets/icons/twitter.png
     - assets/images/backgroundtemplete.png
+    - assets/icons/genisbayiicon.PNG
+    - assets/icons/hizliteslimaticon.PNG
+    - assets/icons/kaliteicon.PNG
+    - assets/icons/musteriicon.PNG
+    - assets/icons/tecrubeicon.PNG
+    - assets/icons/uygunfiyaticon.PNG
+    - assets/icons/adresicon.PNG
+    - assets/icons/telefonicon.PNG
+    - assets/icons/mailicon.PNG
+    - assets/images/isbankasiLogo.jpg
+    - assets/images/pttbankLogo.jpg
+    - assets/images/isbankasiLogo.PNG
+    - assets/images/pttbankLogo.PNG
+    - assets/images/insankaynaklari1.jpg
+    - assets/images/insankaynaklari2.png
+    - assets/images/insankaynaklarihead.PNG
+    - assets/images/process1.png
+    - assets/images/process2-1.png
+    - assets/images/process3-1.png
+    - assets/images/adim01.PNG
+    - assets/images/adim02.PNG
+    - assets/images/adim03.PNG
+    - assets/images/hakkimizda1.png
+    - assets/images/h3.jpg
+    - assets/images/h3_sol.png
+    - assets/images/h4.jpg
+    - assets/images/h4_sol.png
+    - assets/images/h5.jpg
+    - assets/images/h5_sol.png
+    - assets/images/h6.jpg
+    - assets/images/h6_sol.png
+    - assets/images/h7.jpg
+    - assets/images/h7_sol.png
+    - assets/images/Hidesan-ayaklı-aktarma-redüktör.jpg
+    - assets/images/Hidesan-ayaklı-redüktör.jpg
+    - assets/images/Hidesan-flanşlı-aktarma-redüktör.jpg
+    - assets/images/Hidesan-flanşlı-redüktör.jpg
+    - assets/images/hTipiUrun.jpg
+    - assets/images/K-TİPİ-REDÜKTÖR.png
+    - assets/images/KM3-KIYMA-REDÜKTÖR.jpg
+    - assets/images/T-TİPİ-FLANŞLI-REDÜKTÖR.jpg
+    - assets/images/T-TİPİ-REDÜKTÖR.png
 
 
 

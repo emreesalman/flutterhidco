@@ -25,7 +25,10 @@ class AnasayfaEkran extends StatelessWidget {
           child: SafeArea(
             child: Column(
               children: <Widget>[
-                Text("Bu uygulama KOSGEB desteği ile yaptırılmıştır.",textAlign: TextAlign.center,style: TextStyle(color: Colors.teal),),
+                Padding(
+                  padding: const EdgeInsets.only(top: 5,bottom: 2),
+                  child: Text("Bu uygulama KOSGEB desteği ile yaptırılmıştır.",textAlign: TextAlign.center,style: TextStyle(color: Colors.teal),),
+                ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   mainAxisSize: MainAxisSize.max,
@@ -51,7 +54,8 @@ class AnasayfaEkran extends StatelessWidget {
                 ),
                 new Container(
                   alignment: Alignment.center,
-                  height: 250.0,
+                  height: 230.0,
+                  width: double.infinity,
                   decoration: BoxDecoration(
                     image: DecorationImage(
                         image: AssetImage("assets/images/h_tipi_anasayfa.png")
@@ -85,7 +89,7 @@ class AnasayfaEkran extends StatelessWidget {
                           transform: Matrix4.skewY(0.0)..rotateZ(0.0),
                           child: Container(
                             padding: EdgeInsets.all(5.0),
-                            color: Color(0xFFFEEEDD),
+                            color: Color(0xFFFFFFFF),
                             child: new Text("Hakkimizda",textDirection: TextDirection.ltr,textAlign: TextAlign.center,
                             ),
                           ),
@@ -111,7 +115,7 @@ class AnasayfaEkran extends StatelessWidget {
                           transform: Matrix4.skewY(0.0)..rotateZ(0.0),
                           child: Container(
                             padding: EdgeInsets.all(5.0),
-                            color: Color(0xFFFEEEDD),
+                            color: Color(0xFFFFFFFF),
                             child: new Text("Urunler",textDirection: TextDirection.ltr,textAlign: TextAlign.center,
                             ),
                           ),
@@ -137,7 +141,7 @@ class AnasayfaEkran extends StatelessWidget {
                           transform: Matrix4.skewY(0.0)..rotateZ(0.0),
                           child: Container(
                             padding: EdgeInsets.all(5.0),
-                            color: Color(0xFFFEEEDD),
+                            color: Color(0xFFFFFFFF),
                             child: new Text("Bayiler",textDirection: TextDirection.ltr,textAlign: TextAlign.center,
                             ),
                           ),
@@ -174,7 +178,7 @@ class AnasayfaEkran extends StatelessWidget {
                           transform: Matrix4.skewY(0.0)..rotateZ(0.0),
                           child: Container(
                             padding: EdgeInsets.all(5.0),
-                            color: Color(0xFFFEEEDD),
+                            color: Color(0xFFFFFFFF),
                             child: new Text("Shop",textDirection: TextDirection.ltr,textAlign: TextAlign.center,
                             ),
                           ),
@@ -200,7 +204,7 @@ class AnasayfaEkran extends StatelessWidget {
                           transform: Matrix4.skewY(0.0)..rotateZ(0.0),
                           child: Container(
                             padding: EdgeInsets.all(5.0),
-                            color: Color(0xFFFEEEDD),
+                            color: Color(0xFFFFFFFF),
                             child: new Text("Blog",textDirection: TextDirection.ltr,textAlign: TextAlign.center,
                             ),
                           ),
@@ -226,7 +230,7 @@ class AnasayfaEkran extends StatelessWidget {
                           transform: Matrix4.skewY(0.0)..rotateZ(0.0),
                           child: Container(
                             padding: EdgeInsets.all(5.0),
-                            color: Color(0xFFFEEEDD),
+                            color: Color(0xFFFFFFFF),
                             child: new Text("Banka Bilgileri",textDirection: TextDirection.ltr,textAlign: TextAlign.center,
                             ),
                           ),
@@ -264,7 +268,7 @@ class AnasayfaEkran extends StatelessWidget {
                           transform: Matrix4.skewY(0.0)..rotateZ(0.0),
                           child: Container(
                             padding: EdgeInsets.all(5.0),
-                            color: Color(0xFFFEEEDD),
+                            color: Color(0xFFFFFFFF),
                             child: new Text("Sosyal Medya",textDirection: TextDirection.ltr,textAlign: TextAlign.center,
                             ),
                           ),
@@ -290,7 +294,7 @@ class AnasayfaEkran extends StatelessWidget {
                           transform: Matrix4.skewY(0.0)..rotateZ(0.0),
                           child: Container(
                             padding: EdgeInsets.all(5.0),
-                            color: Color(0xFFFEEEDD),
+                            color: Color(0xFFFFFFFF),
                             child: new Text("Insan Kaynaklari",textDirection: TextDirection.ltr,textAlign: TextAlign.center,
                             ),
                           ),
@@ -315,7 +319,7 @@ class AnasayfaEkran extends StatelessWidget {
                           transform: Matrix4.skewY(0.0)..rotateZ(0.0),
                           child: Container(
                             padding: EdgeInsets.all(5.0),
-                            color: Color(0xFFFEEEDD),
+                            color: Color(0xFFFFFFFF),
                             child: new Text("Iletisim",textDirection: TextDirection.ltr,textAlign: TextAlign.center,
                             ),
                           ),
