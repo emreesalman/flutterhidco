@@ -1,14 +1,13 @@
-import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:carousel_pro/carousel_pro.dart';
 import 'package:photo_view/photo_view.dart';
-import 'package:photo_view/photo_view_gallery.dart';
-import 'package:webview_flutter/webview_flutter.dart';
+
+
 class UrunDetayView extends StatelessWidget{
   String UrunData;
+  String UrunData1;
   String title;
-  UrunDetayView({this.UrunData,this.title});
+  UrunDetayView({this.UrunData,this.UrunData1,this.title});
   @override
   Widget build(BuildContext context) {
     if(UrunData.isNotEmpty){
@@ -16,10 +15,51 @@ class UrunDetayView extends StatelessWidget{
       appBar: AppBar(
         title: Text(title),
       ),
-      body: WebView(
-        initialUrl: UrunData,
-        javascriptMode: JavascriptMode.unrestricted,
-      ),
+      body: SafeArea(
+        child: SingleChildScrollView(
+          child: Container(
+            child: SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Column(
+                children: <Widget>[
+                  Padding(
+                    padding: const EdgeInsets.all(10.0),
+                    child: Container(
+                      height: 250,
+                      width: 700,
+                      child: PhotoView(
+                        imageProvider: AssetImage(UrunData),
+                        minScale: PhotoViewComputedScale.contained*0.8,
+                        maxScale: PhotoViewComputedScale.covered*2,
+                        enableRotation: false, backgroundDecoration: BoxDecoration(
+                        color: Theme.of(context).canvasColor,
+                      ),
+
+                      ),
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(10.0),
+                    child: Container(
+                      height: 500,
+                      width: 700,
+                      child: PhotoView(
+                        imageProvider: AssetImage(UrunData1),
+                        minScale: PhotoViewComputedScale.contained*0.8,
+                        maxScale: PhotoViewComputedScale.covered*2,
+                        enableRotation: false,
+                        backgroundDecoration: BoxDecoration(
+                          color: Theme.of(context).canvasColor,
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              )
+            ),
+          ),
+        ),
+      )
     );
     }
     else{

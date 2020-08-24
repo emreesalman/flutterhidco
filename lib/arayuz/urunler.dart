@@ -2,12 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hidco/arayuz/urundetay.dart';
 class UrunlerView extends StatelessWidget{
     String urunData;
+    String urunData1;
     String title;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Urunler Sayfasi"),
+        title: Text("Ürünlerimiz"),
       ),
       body:SafeArea(
         child: SingleChildScrollView(
@@ -53,10 +54,11 @@ class UrunlerView extends StatelessWidget{
                       ),
                       GestureDetector(
                         onTap: (){
-                          urunData="https://hidco.com.tr/portfolio/hidesan-ayakli-reduktor/";
+                          urunData="assets/images/hidesan-ayakli.PNG";
+                          urunData1="assets/images/hidesan-ayakli-tablo.PNG";
                           title= 'Hidesan Ayaklı Tip Redüktör Teknik Veri Sayfası';
                           Navigator.of(context).push(MaterialPageRoute(
-                              builder: (context)=>UrunDetayView(UrunData : urunData,title: title)
+                              builder: (context)=>UrunDetayView(UrunData : urunData,title: title,UrunData1: urunData1,)
                           ));
                         },
                         child: Container(
@@ -96,10 +98,11 @@ class UrunlerView extends StatelessWidget{
                     children: <Widget>[
                       GestureDetector(
                         onTap: (){
-                          urunData="https://hidco.com.tr/portfolio/hidesan-flansli-reduktor/";
+                          urunData="assets/images/hidesan-flansli.PNG";
+                          urunData1="assets/images/hidesan-flansli-tablo.PNG";
                           title= 'Hidesan Flanşlı Tip Redüktör Teknik Veri Sayfası';
                           Navigator.of(context).push(MaterialPageRoute(
-                              builder: (context)=>UrunDetayView(UrunData : urunData,title: title)
+                              builder: (context)=>UrunDetayView(UrunData : urunData,title: title,UrunData1: urunData1,)
                           ));
                         },
                         child: Container(
@@ -131,10 +134,11 @@ class UrunlerView extends StatelessWidget{
                       ),
                       GestureDetector(
                         onTap: (){
-                          urunData="https://hidco.com.tr/portfolio/hidesan-ayakli-aktarma-tip-reduktor/";
+                          urunData="assets/images/hidesan-ayakli-aktarma.PNG";
+                          urunData1="assets/images/hidesan-ayakli-aktarma-tablo.PNG";
                           title= 'Hidesan Ayaklı Aktarma Tip Redüktör Sayfası';
                           Navigator.of(context).push(MaterialPageRoute(
-                              builder: (context)=>UrunDetayView(UrunData : urunData,title: title)
+                              builder: (context)=>UrunDetayView(UrunData : urunData,title: title,UrunData1: urunData1,)
                           ));
                         },
                         child: Container(
@@ -174,10 +178,11 @@ class UrunlerView extends StatelessWidget{
                     children: <Widget>[
                       GestureDetector(
                         onTap: (){
-                          urunData="https://hidco.com.tr/portfolio/haf-tipi-reduktor/";
+                          urunData="assets/images/hidesan-flansli-aktarma.PNG";
+                          urunData1="assets/images/hidesan-flansli-aktarma-tablo.PNG";
                           title= 'Hidesan Flanşlı Aktarma Tip Redüktör Sayfası';
                           Navigator.of(context).push(MaterialPageRoute(
-                              builder: (context)=>UrunDetayView(UrunData : urunData,title: title)
+                              builder: (context)=>UrunDetayView(UrunData : urunData,title: title,UrunData1: urunData1,)
                           ));
                         },
                         child: Container(
@@ -209,10 +214,11 @@ class UrunlerView extends StatelessWidget{
                       ),
                       GestureDetector(
                         onTap: (){
-                          urunData="https://hidco.com.tr/portfolio/t-tipi-ayakli-reduktor/";
+                          urunData="assets/images/t-tip-ayakli.PNG";
+                          urunData1="assets/images/t-tip-ayakli-tablo.PNG";
                           title= 'Hidesan T Tip Aktarma Redüktör Sayfası';
                           Navigator.of(context).push(MaterialPageRoute(
-                              builder: (context)=>UrunDetayView(UrunData : urunData,title: title)
+                              builder: (context)=>UrunDetayView(UrunData : urunData,title: title,UrunData1: urunData1,)
                           ));
                         },
                         child: Container(
@@ -287,10 +293,11 @@ class UrunlerView extends StatelessWidget{
                       ),
                       GestureDetector(
                         onTap: (){
-                          urunData="https://hidco.com.tr/portfolio/k-tipi-reduktor/";
+                          urunData="assets/images/k-tip.PNG";
+                          urunData1="assets/images/k-tip-tablo.PNG";
                           title= 'Hidesan K Tip Redüktör Sayfası';
                           Navigator.of(context).push(MaterialPageRoute(
-                              builder: (context)=>UrunDetayView(UrunData : urunData,title: title)
+                              builder: (context)=>UrunDetayView(UrunData : urunData,title: title,UrunData1:urunData1,)
                           ));
                         },
                         child: Container(

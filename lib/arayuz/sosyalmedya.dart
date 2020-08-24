@@ -11,7 +11,7 @@ class SosyalMedyaView extends StatelessWidget{
         child: SingleChildScrollView(
           child: Container(
             width: double.infinity,
-            height: 660,
+            height: 620,
             decoration: BoxDecoration(
               image: DecorationImage(
                   image: AssetImage("assets/images/backgroundtemplete.png"),

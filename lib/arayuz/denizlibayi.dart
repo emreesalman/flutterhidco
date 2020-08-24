@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_hidco/arayuz/ankarabayi.dart';
 import 'package:url_launcher/url_launcher.dart';
 int temp=0;
 class DenizliBayiView extends StatelessWidget{
@@ -120,6 +119,10 @@ class _appCallState extends State<appCall> {
                         child: Text(telefon,style: TextStyle(fontSize: 19,color: Colors.blue),)
                     ),
                   ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Icon(Icons.phone_forwarded),
+                  ),
                 ],
               ),
               Row(
@@ -130,7 +133,17 @@ class _appCallState extends State<appCall> {
                   ),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
-                    child: Text(email,style: TextStyle(fontSize: 18,),),
+                    child: InkWell(
+                        onTap: (){
+                          String sendMail='mailto:'+email;
+                          launch(sendMail);
+                        },
+                        child: Text(email,style: TextStyle(fontSize: 19,color: Colors.blue),)
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(0.5),
+                    child: Icon(Icons.email),
                   ),
                 ],
               ),

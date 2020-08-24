@@ -4,13 +4,13 @@ class BayilerView extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Bayiler"),
+        title: Text("Bayilerimiz"),
       ),
       body:SingleChildScrollView(
         child: SafeArea(
           child: Container(
             width: double.infinity,
-            height: 700,
+            height: 665,
             decoration: BoxDecoration(
               image: DecorationImage(
                   image: AssetImage("assets/images/backgroundtemplete.png"),

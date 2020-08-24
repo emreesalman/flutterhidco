@@ -22,6 +22,7 @@ class appCall extends StatefulWidget {
 class _appCallState extends State<appCall> {
   @override
   String telno="+902363131566";
+  String email="bilgi@hidco.com.tr";
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: SafeArea(
@@ -80,8 +81,18 @@ class _appCallState extends State<appCall> {
                   children: <Widget>[
                     Padding(
                       padding: const EdgeInsets.only(left: 60,top: 10),
-                      child: Text('''bilgi@hidco.com.tr''',
-                        style: TextStyle(fontSize: 25,color: Colors.white),),
+                      child: InkWell(
+                        onTap: (){
+                          String sendEmail='mailto:'+email;
+                          launch(sendEmail);
+                        },
+                        child: Text('''bilgi@hidco.com.tr''',
+                          style: TextStyle(fontSize: 25,color: Colors.white),),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 10,top: 10),
+                      child: Icon(Icons.mail, size: 30,color: Colors.indigo,),
                     ),
                     SizedBox(),
                   ],
@@ -107,6 +118,10 @@ class _appCallState extends State<appCall> {
                         child: Text('''+90 236 313 15 66''',
                           style: TextStyle(fontSize: 25,color: Colors.white),),
                       ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Icon(Icons.phone_forwarded, size: 30,color: Colors.indigo,),
                     ),
                     SizedBox(),
                   ],

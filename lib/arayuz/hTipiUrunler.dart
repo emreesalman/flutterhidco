@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hidco/arayuz/hTipiUrunDetay.dart';
-import 'package:flutter_hidco/arayuz/urundetay.dart';
 class hTipiUrunlerView extends StatelessWidget{
   String urunData;
   String title;
