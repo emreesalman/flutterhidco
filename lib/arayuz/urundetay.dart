@@ -34,7 +34,6 @@ class UrunDetayView extends StatelessWidget{
                         enableRotation: false, backgroundDecoration: BoxDecoration(
                         color: Theme.of(context).canvasColor,
                       ),
-
                       ),
                     ),
                   ),

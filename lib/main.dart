@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_hidco/arayuz/sosyalmedyaview.dart';
 import './arayuz/anasayfa.dart';
 import './arayuz/bankabilgi.dart';
 import './arayuz/bayiler.dart';
@@ -17,6 +18,7 @@ import './arayuz/ankarabayi.dart';
 import './arayuz/antepbayi.dart';
 import './arayuz/hTipiUrunler.dart';
 import './arayuz/hTipiUrunDetay.dart';
+import './arayuz/sosyalmedyaview.dart';
 
 
 void main(){
@@ -41,6 +43,7 @@ void main(){
       "/antepbayi":(context)=>AntepBayiView(),
       "/hTipiUrunler":(context)=>hTipiUrunlerView(),
       "/hTipiUrunDetay":(context)=>hTipiUrunDetayView(),
+      "/sosyalmedyaview" :(context)=>SosyalMedyaDetayView(),
 
       },
     )
